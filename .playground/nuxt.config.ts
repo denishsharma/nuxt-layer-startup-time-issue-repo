@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
+  devtools: {enabled: true},
   compatibilityDate: '2024-12-12',
   future: {
     compatibilityVersion: 4
